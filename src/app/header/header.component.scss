@@ -1,0 +1,16 @@
+.header {
+    background-color: aquamarine;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.header:hover{
+    transition: 0.3s;
+    height: 100px
+}
+
+.header:not(:hover) {
+    transition: 0.3s;
+}
